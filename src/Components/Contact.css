@@ -1,0 +1,18 @@
+.contactSection {
+  margin: 150px 30px;
+}
+
+.contactSection h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 700px) {
+  .contactSection {
+    margin: 200px 50px;
+  }
+
+  .contactSection h2 {
+    text-align: left;
+  }
+}

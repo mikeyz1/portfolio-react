@@ -1,0 +1,36 @@
+.aboutSection {
+  margin: 150px 30px 0;
+}
+
+.aboutSection h2 {
+  text-align: center;
+}
+
+.infoSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoCard {
+  width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+  .aboutSection {
+    margin: 0 50px;
+  }
+
+  .aboutSection h2 {
+    text-align: left;
+  }
+
+  .infoSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .infoCard {
+    width: 45%;
+  }
+}
