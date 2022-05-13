@@ -27,7 +27,7 @@ nav a {
 
 .mobileNavbar {
   position: fixed;
-  background-color: rgba(22, 43, 50, 0.95);
+  background-color: var(--background-color);
   top: 0;
   height: 100vh;
   width: 100vw;

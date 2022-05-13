@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
 :root {
-  --background-color: #162b32;
-  --primary-color: #ff4838;
+  --background-color: black;
+  --primary-color: white;
   --primary-color-darker: #77221a;
 }
 
@@ -21,12 +21,3 @@ a:hover {
   text-decoration: underline;
 }
 
-button {
-  border: 1px solid var(--primary-color-darker);
-  background-color: var(--primary-color);
-  color: rgb(0, 0, 0);
-  border-radius: 25px;
-  font-size: 1.3em !important;
-  padding: 5px;
-  cursor: pointer;
-}

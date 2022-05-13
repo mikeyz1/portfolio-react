@@ -17,7 +17,7 @@ function Hero() {
                         stiffness: 100,
                         damping: 20
                     }}
-                    src="https://rogroep.nl/wp-content/uploads/2020/09/blank-profile-picture-973460_640.png"
+                    src="/images/profile-image.png"
                 />
                 <motion.div
                     initial= {{ x: -50, opacity: 0 }}
@@ -29,10 +29,11 @@ function Hero() {
                         <p>Ik breng de oplossing voor uw site ideeën!</p>
                 </motion.div>
             </div>
+
             <div className="cvContainer">
                 <Router>
                     <Link to="/files/Mikey_Zundert_CV.odt" target="_blank" download>
-                        <motion.button
+                        <motion.button className='cvButton'
                             whileHover={{
                                 scale: 1.1
                             }}
