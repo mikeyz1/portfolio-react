@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
     return (
         <div className="footer">
-            <p>Created by Mikey van Zundert@2021</p>
+            <p>Created by Mikey van Zundert@2022</p>
         </div>
     );
 }

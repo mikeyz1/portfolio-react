@@ -32,7 +32,7 @@ function Hero() {
 
             <div className="cvContainer">
                 <Router>
-                    <Link to="/files/Mikey_Zundert_CV.odt" target="_blank" download>
+                    <Link to="/files/Mikey_Zundert_CV.pdf" target="_blank" download>
                         <motion.button className='cvButton'
                             whileHover={{
                                 scale: 1.1
